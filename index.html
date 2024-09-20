@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A ajuda</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="encontrando uma véia que precisa atravessar a rua">
+            <p>Você está andando na rua tranquilamente, quando se depara com uma senhora querendo atravessar a rua </p>
+            <button class="btn-proximo" data-proximo="1">Perguntar se ela quer uma ajuda</button>
+            <button class="btn-proximo" data-proximo="2">Apenas ignorar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ela respondeu que sim.</p>
+            <button class="btn-proximo" data-proximo="3">Você espera que o sinal feche e leva ela em segurança para o outro lado da rua</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você atravessa a rua, depois de cerca de 3 quarterões você se depara com uma véia que também necessita de ajuda</p>
+            <button class="btn-proximo" data-proximo="5">Se redimir e perguntar se ela precisa de ajuda</button>
+            <button class="btn-proximo" data-proximo="6">Continuar sendo um ser humano horrível e passar reto</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ela fica muito feliz por sua gentileza, como forma de retribuir ela da a opção de 2 pedidos
+                É..... a véia tem esse poder  
+            </p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a oferta generosa dela</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo de ajudar a senhora">
+            <p>Você lembra que esqueceu de trancar a porta do seu apartamento</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ela aceita a sua ajuda, você espera que o sinal feche para que possa levar ela em segurança ao outro lado.
+                Assim que chegam ao outro lado, você olha melhor para o rosto dela, e vê que é a senhora da rua passada. Ela,  como forma de retribuir te dá a opção de 2 pedidos
+            </p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a oferta</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Depois da sua consciência pesar, você começa a pensar em voltar e ajudar a véia</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e ajudar ela</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Pedido 1: você deseja o fim de todas as guerras na mesma hora
+               Pedido 2: o poder para acabar com todas as guerras pessoalmente</p>
+            <button class="btn-proximo" data-proximo="9">Pedido 1</button>
+            <button class="btn-proximo" data-proximo="10">Pedido 2</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta naquela rua, você avista ela. Depois de ajudá-la, ela,  como forma de retribuir, te dá a opção de 2 pedidos </p>
+            <button class="btn-proximo" data-proximo="7">Aceitar de bom grado</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Quando você mal acabou de falar, seu telefone vibra com o recebimento de uma notícia dizendo que todos os países que estavam em conflito fizeram um acordo de paz.</p>
+            <button class="btn-proximo" data-proximo="11">Sentir-se orgulhoso sabendo que fez a escolha certa</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>quando você mal acabou de falar, uma sensação diferente se apossou seu corpo, uma sensação de que você poderia fazer tudo e ter sucesso.</p>
+            <button class="btn-proximo" data-proximo="12">Agardecer ela e ir descobrir do que você é capaz de fazer</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-países-em-paz.png" alt="deixando o mundo em paz">
+            <p>Todas as guerras se findaram, todos os países se encontram numa paz jamais vista ou vivida, e você é o responsável por isso.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você demonstra sua força para todos os países e faz com que todos entrem em um concenso e assinem um acordo de paz que jamais poderá ser desfeito.</p>
+            <button class="btn-proximo" data-proximo="11">Sentir-se orgulhoso sabendo que fez a escolha certa</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>   
